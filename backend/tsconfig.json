@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                               /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "ESNext",                               /* Specify what module code is generated. */
+    "strict": true,                                   /* Enable all strict type-checking options. */
+    "skipLibCheck": true,                             /* Skip type checking all .d.ts files. */
+    "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
+    "removeComments": true,                           /* Disable emitting comments. */
+    "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. Example: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#--strictnullchecks */
+    "strictFunctionTypes": true,                      /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. Example: https://www.typescriptlang.org/tsconfig/#strictFunctionTypes */
+    "noImplicitThis": true,                           /* Enable error reporting when 'this' is given the type 'any'. */
+    "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+    "noUnusedParameters": false,                      /* Raise an error when a function parameter isn't read. */
+    "noImplicitReturns": true,                        /* Enable error reporting for codepaths that do not explicitly return in a function. */
+    "noFallthroughCasesInSwitch": true,               /* Enable error reporting for fallthrough cases in switch statements. Example: https://www.typescriptlang.org/tsconfig/#noFallthroughCasesInSwitch */
+    "allowSyntheticDefaultImports": true,             /* Allow 'import x from y' when a module doesn't have a default export. */
+    "esModuleInterop": true,                          /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "emitDecoratorMetadata": true,                    /* Emit design-type metadata for decorated declarations in source files. Example: https://www.typescriptlang.org/tsconfig/#emitDecoratorMetadata */
+    "experimentalDecorators": true,                   /* Enable experimental support for legacy experimental decorators.Example: https://www.typescriptlang.org/tsconfig/#experimentalDecorators */
+    "outDir": "./dist",                               /* Specify an output folder for all emitted files. */
+    "rootDir": "./src",                               /* Specify the root folder within your source files. */
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
