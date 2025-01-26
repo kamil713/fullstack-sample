@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 
 describe('Faker example', () => {
     it('should generate a random name', () => {
-        const name = faker.name.fullName();
+        const name = faker.person.fullName();
         expect(typeof name).toBe('string');
     });
 });

@@ -4,7 +4,7 @@
     "module": "ESNext",                               /* Specify what module code is generated. */
     "strict": true,                                   /* Enable all strict type-checking options. */
     "skipLibCheck": true,                             /* Skip type checking all .d.ts files. */
-    "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
+    "moduleResolution": "Node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
     "removeComments": true,                           /* Disable emitting comments. */
     "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
     "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. Example: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#--strictnullchecks */
@@ -22,5 +22,9 @@
     "rootDir": "./src",                               /* Specify the root folder within your source files. */
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "transpileOnly": true,
+    "experimentalResolver": true
+  }
 }
